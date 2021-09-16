@@ -2,9 +2,7 @@ function meuEscopo () {
     const form = document.querySelector('.form');
     const resultado = document.querySelector('.resultado')
 
-    const pessoas = [
-      
-    ];
+    const pessoas = [];
 
     function recebeEventoForm(evento) {
         evento.preventDefault()
