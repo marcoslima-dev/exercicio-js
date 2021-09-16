@@ -20,7 +20,6 @@ function meuEscopo () {
                     altura: altura.value
                 } 
                 )
-                console.log(pessoas)
 
                 resultado.innerHTML += `<p>${nome.value} ${sobrenome.value} ${peso.value} ${altura.value} </p>`
     }
