@@ -5,4 +5,4 @@ Operadores Lógicos
 ! -> NOT -> NÃO
 */
 
-
+ 
