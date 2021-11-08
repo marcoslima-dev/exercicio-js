@@ -1,0 +1,37 @@
+/*try {
+    console.log('Abri um arquivo');
+    console.log('Manipulei o arquivo');
+    console.log('Fechei o arquivo');
+}
+catch (e) {
+    console.log('Deu erro ai karai')
+}
+finally {
+     console.log('Serei sempre executado, fodase')}
+     */
+
+function retornaHora (data) {
+    if (data && !(data instanceof Date )) {
+        throw new typeError('Esperando a instância de Date.')
+    }
+
+    if (!data) {
+        data= new Date();
+    }
+
+    return data.toLocaleTimeString('pt-BR', {
+        hour:'2-digit',
+        minute:'2-digit',
+        second:'2-digit',
+        hour12:false
+
+    })
+}
+
+try {
+    const data = new Date('01-01-2001 12:59:12');
+const hora = retornaHora();
+console.log(hora)
+}catch(e) {
+
+} finally { console.log('Bom dia')}
