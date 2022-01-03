@@ -33,6 +33,7 @@ function getDiaDaSemana(diaSemana) {
         return diaSemanaTexto;
     }
 }
+const diaSemanaTexto = getDiaDaSemana(diaSemana)
 console.log(diaSemana, diaSemanaTexto)
 
 /*

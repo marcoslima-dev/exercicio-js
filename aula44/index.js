@@ -3,7 +3,7 @@ function soma (x, y) {
         typeof x !== 'number' || 
         typeof y !== 'number' 
     ) {
-        throw new Error ('x ou y precisam ser tipo numbers')
+        throw new Error ('x ou y precisam ser tipo number')
     } 
 
     return x + y;
