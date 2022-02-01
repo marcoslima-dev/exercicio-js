@@ -1,2 +1,3 @@
-console.log('VASCO, O GIGANTE')
-alert('Botafogo, Botafogo, Camepão')
+console.log('Olá Mundo')
+alert('Olá Mundo')
+
