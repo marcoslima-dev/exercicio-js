@@ -1,6 +1,6 @@
 const _velocidade = Symbol('velocidade');
 class Carro {
-    constructor(nome,velocidade) {
+    constructor(nome) {
         this.nome = nome;
         this[_velocidade] = 0;
     }
