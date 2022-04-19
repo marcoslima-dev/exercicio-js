@@ -1,4 +1,5 @@
 //Herança com classes
+//Herança =  Uma classe é capaz de herdar métodos e atributos da sua classe "pai"
 
 class DispositivoEletronico {
     constructor(nome) {
@@ -21,9 +22,10 @@ class DispositivoEletronico {
         this.ligado = false;
     }
 }
-
+//Útiliza-se extends para indicar que uma classe está herdando a outra
 class Smartphone extends DispositivoEletronico {
     constructor(nome, cor, modelo) {
+        //Super -  chama o constructor da superplasse (classe pai) e importa todo o código já feito
         super(nome)
         this.cor = cor;
         this.modelo = modelo;

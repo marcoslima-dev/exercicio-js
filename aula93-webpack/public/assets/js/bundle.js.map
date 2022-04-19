@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;;AAAAA,KAAK,CAAC,WAAD,CAAL,C","sources":["webpack://aula93/./src/index.js"],"sourcesContent":["alert('AI CALICA')"],"names":["alert"],"sourceRoot":""}

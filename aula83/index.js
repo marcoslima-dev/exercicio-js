@@ -1,4 +1,8 @@
 //Métodos estáticos
+/*Método estático -  funções que não dependem de uma variável de instância,
+quando invocados executam uma função sem a dependência do conteúdo de um 
+objeto ou a execução da instância de uma classe
+*/
 
 class ControleRemoto {
     constructor(TV){
