@@ -1,0 +1,14 @@
+<% controle de fluxo(if,for, etc)%>
+OBS: ao utilizar se utiliza chaves de abertura e fechamento ex:
+
+<%  if(alguma coisa) { %>
+    <% exibe algo %>
+<% } else { %>
+    <% exibe algo %>
+<% } %>
+
+
+<%= Imprime escapando caracteres %>
+<%- Imrprime sem escapar caracteres%>
+<%#Comentários%>
+<%- include('CAMINHO DO ARQUIVO'); %>
